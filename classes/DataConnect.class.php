@@ -6,9 +6,9 @@
         private $dbname;
 
         protected function connect(){
-            $this->servername = "localhost";
-            $this->username = "root";
-            $this->password = "";
+            $this->servername = "localhost:3308";
+            $this->username = "nathaniel";
+            $this->password = "ibiyosi141";
             $this->dbname = "maxventory";
 
             $datasourcename = 'mysql:host='.$this->servername.';dbname='.$this->dbname;
